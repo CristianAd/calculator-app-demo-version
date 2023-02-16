@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora.V.0.1</title>
+</head>
+<body>
+    
+
+    
+    <div class="contenedor">
+        <div class="cabecera">
+            <h1>Calculate</h1>
+
+            <div class="caja-respuestas" id="digitado"></div>
+               
+            </div>
+
+        </div>
+            <section class="botones">
+                <div class="caja-digitos">
+                    
+                    <input class="tecla buno" type="button" value="0" id="cero" onclick="asignador(valor0)"></input>
+                    <input class="tecla buno" type="button" value="1" id="uno" onclick="asignador(valor1)"></input>
+                    <input class="tecla bdos" type="button" value="2" id="dos" onclick="asignador(valor2)"></input>
+                    <input class="tecla btres" type="button" value="3" id="tres" onclick="asignador(valor3)"></input>
+                    <input class="tecla bcuatro" type="button" value="4" id="cuatro" onclick="asignador(valor4)"></input>
+                    <input class="tecla bcinco" type="button" value="5" id="cinco" onclick="asignador(valor5)"></input>
+                    <input class="tecla bseis" type="button" value="6" id="seis" onclick="asignador(valor6)"></input>
+                    <input class="tecla bsiete" type="button" value="7" id="siete" onclick="asignador(valor7)"></input>
+                    <input class="tecla bocho" type="button" value="8" id="ocho" onclick="asignador(valor8)"></input>
+                    <input class="tecla bnueve" type="button" value="9" id="nueve" onclick="asignador(valor9)"></input>
+
+                </div>
+            <div class="caja-operadores">
+                <input  type="button" value="+" class="op" onclick="bsuma()"></input>
+                <input  type="button" value="-" class="op" onclick="bresta()"></input>
+                <input  type="button" value="*" class="op" onclick="bmultiplicador()"></input>
+                <input type="button" value="/"  class="op" onclick="bdividir()"></input>
+                <input  type="button" value="=" class="op" onclick="resultado()">
+            </div>
+            </section>
+
+
+
+
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>

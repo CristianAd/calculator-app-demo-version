@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(71, 68, 62);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 6rem;
+    position: relative;
+}
+
+
+.contenedor{
+    display: flex;
+    border: 0.3rem solid black;
+    width: 40rem;
+    height: 40rem;
+    position: absolute;
+    flex-direction: column;
+
+}
+
+.botones{
+    display: flex;
+    position: relative;
+    right: 0;
+    top: 10rem;
+
+}
+
+.cabecera{
+    position: relative;
+    flex-direction: column;
+    height: 0px 0px;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(100, 32, 163);
+}
+
+.caja-respuestas{
+    background-color: white;
+    width: 100%;
+    height: 5rem;
+
+}
+.caja-digitos{
+    background-color: rgb(78, 78, 16);
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    
+     
+     
+}
+.caja-operadores{
+    background-color: rgb(75, 75, 17);
+    display: flex;
+    width: 10rem;
+    
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+ 
+
+.tecla{
+     
+    background-color: aqua;
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem;
+    font-size: large;
+    text-align: center;
+    padding-top: 1rem;
+   
+
+}
+
+.btn{
+    background-color: brown;
+    text-decoration: solid;
+    font-size: large;
+}
+
+.op{
+     
+    background-color: aqua;
+    padding-top: 1rem;
+    width: 4rem;
+    height: 2rem;
+    margin: 1rem;
+    text-align: center;
+    padding-bottom: 2rem;
+
+
+}

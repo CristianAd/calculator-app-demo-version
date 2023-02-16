@@ -1,0 +1,112 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.generalContent{
+    border: 1px solid gray;
+    height: 90vh;
+    width: 95 vh;
+
+}
+
+.head{
+    border: 1px solid green;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(100, 32, 163);
+    
+}
+
+.response{
+    border: 1px solid  grey;
+    height: 10vh;
+    margin: 1rem;
+    display: flex;
+    padding-left: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 245, 231);
+      
+}
+
+.butonZone{
+    border: 1px solid blueviolet;
+    display: flex;
+    margin:  0 auto;
+    width: 90%;
+    height: 70%;
+    justify-content: space-around;
+    background-color: #B376EC;
+}
+
+.setButtons{
+    
+    display: flex;
+    width: 20vw;
+    height: 60vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+.setButtons button{
+    display: flex;
+    width: 4rem;
+    height: 2rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: rgb(23, 64, 70);
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 800;
+    border: solid rgb(0, 255, 255);
+}
+
+.setOperators{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(98, 98, 98);
+}
+
+.setOperators button{
+    width: 4rem;
+    height: 2rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    background-color: rgb(225, 225, 225);
+    font-weight: 800;
+    font-size: large;
+    
+}
+
+.dato1{
+    margin-left: 1rem;
+    border: 1px solid blue;
+    padding: 1rem;
+}
+
+.dato2{
+    margin-left: 1rem;
+    border: 1px solid red;
+    padding: 1rem;
+}
+
+.dato3{
+    margin-left: 1rem;
+    border: 1px solid rgb(0, 185, 25);
+    padding: 1rem;
+}
+
+.dato4{
+    margin-left: 1rem;
+    border: 1px solid rgb(185, 0, 157);
+    padding: 1rem;
+}
